@@ -1,3 +1,8 @@
+var appDesc = {
+  appName: "Game",
+  appVersion: "v.0.0.0"
+};
+
 class Dialog {
   constructor(name) {
     this.name = name;
