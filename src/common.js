@@ -19,5 +19,8 @@ class Dialog {
 
   show() {
     this.dialog.style.display = "block";
+    this._afterShow();
   }
+
+  _afterShow() {}
 }

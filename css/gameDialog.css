@@ -8,6 +8,17 @@
   background-color: lightgrey;
 }
 
+#gameDialog .field-item {
+  width: 100px;
+  height: 100px;
+  background-color: lightgrey;
+  float: left;
+  border: solid 1px black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+}
+
 #gameDialog .score {
   width: 300px;
   margin: auto;
