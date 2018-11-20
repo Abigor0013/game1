@@ -11,12 +11,14 @@
 #gameDialog .field-item {
   width: 100px;
   height: 100px;
+  padding-top: 6px;
   background-color: lightgrey;
   float: left;
   border: solid 1px black;
   text-align: center;
   vertical-align: middle;
-  font-size: 24px;
+  font-size: 64px;
+  cursor: pointer;
 }
 
 #gameDialog .score {

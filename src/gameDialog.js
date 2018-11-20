@@ -20,11 +20,18 @@ class GameDialog extends Dialog {
   }
 
   createField() {
+    this.field.innerHTML = "";
     for (let i = 0; i < 9; i++) {
       this.fieldItems[i] = document.createElement("div");
       this.fieldItems[i].setAttribute("class", "field-item");
       this.fieldItems[i].setAttribute("id", "field-item-" + (i + 1));
       this.field.appendChild(this.fieldItems[i]);
+    }
+  }
+
+  updateField(items) {
+    for (let i = 0; i < items.length; i++) {
+      this.fieldItems[i].innerHTML = items[i];
     }
   }
 
